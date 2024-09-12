@@ -7,7 +7,7 @@ public class Task1 {
 
 	public static void main(String[] args) {
 		
-    // Q1. Write a Program to add,subtract,multiply,divide
+    // Q1. Write a Program for Two numbers add,subtract,multiply,divide
 		
 		int num1 = 100;
 		int num2 = 23;
@@ -26,7 +26,7 @@ public class Task1 {
 										    //printf-is a formated output %.2f-floating 2 point ,num1
 		
 		
-	// Q2. UserInput int,String,float,double,boolean
+	// Q2.Get a input from user int, float, String, double , boolean 
 		
 		Scanner in=new Scanner(System.in);        //Scanner is used to get input from used 
 		
