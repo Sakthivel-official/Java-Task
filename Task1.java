@@ -23,7 +23,7 @@ public class Task1 {
 
 		System.out.println("\n-----Division----- ");
 		System.out.printf("%d / %d = %.2f", num1, num2, (float)num1 / num2);  //divide=num1/num2  (float)-is used to convert the datatype 
-																			  //printf-is a formated output %.2f-floating 2 point ,num1
+										    //printf-is a formated output %.2f-floating 2 point ,num1
 		
 		
 	// Q2. UserInput int,String,float,double,boolean
