@@ -54,7 +54,7 @@ public class Task1 {
 		System.out.println("Age: " + age);      //int
 		System.out.println("Height: " + height);//float
 		System.out.println("Weight: " + weight);//double
-		System.out.println("Maried: " + single);//boolean
+		System.out.println("Single: " + single);//boolean
 	}
 
 }
