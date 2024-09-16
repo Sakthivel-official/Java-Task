@@ -35,7 +35,7 @@ public class _02_StudntDetails {
 		student.insertMarks(tam,eng,maths,sci,ssci);
 		student.display();
 		student.TotalMark(500);
-		student.Avrage();
+		student.Average();
 		
 
 	}
@@ -70,7 +70,7 @@ public class _02_StudntDetails {
 			System.out.println("Maths         :"+Maths);
 			System.out.println("Science       :"+Science);
 			System.out.println("Social Science:"+Social_science);
-//			System.out.println("The Avrage is:",Avrage());
+//			System.out.println("The Average is:",Average());
 			System.out.println("+-------------------+");
 
 		}
@@ -88,9 +88,9 @@ public class _02_StudntDetails {
 			System.out.println("Total Mark is: "+result+"/"+totalmark);
 		}
 		
-		void  Avrage() {
-			float avrage=(Tamil+English+Maths+Social_science+Science)/5;
-			System.out.println("The Avrage is: "+avrage);
+		void  Average() {
+			float average=(Tamil+English+Maths+Social_science+Science)/5;
+			System.out.println("The Average is: "+average);
 		}
 
 }
