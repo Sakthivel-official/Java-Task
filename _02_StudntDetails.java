@@ -6,7 +6,7 @@ public class _02_StudntDetails {
 		
 		Scanner in=new Scanner(System.in);
 		
-		StudentDetails student=new StudentDetails();
+		StudentDetails student=new StudentDetails();  //create a object
 		
 		System.out.print("Enter Student id: ");
 		int id=in.nextInt();
@@ -41,7 +41,7 @@ public class _02_StudntDetails {
 	
 }
 	
-	class StudentDetails{
+	class StudentDetails{   //creating a class
 		int ID;
 		String Name;
 		float Tamil;
