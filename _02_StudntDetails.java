@@ -34,6 +34,7 @@ public class _02_StudntDetails {
 		student.insertIdName(id, name);
 		student.insertMarks(tam,eng,maths,sci,ssci);
 		student.display();
+		student.TotalMark(500);
 		student.Avrage();
 		
 
@@ -80,6 +81,11 @@ public class _02_StudntDetails {
 			Maths=maths;
 			Science=sci;
 			Social_science=social_sci;
+		}
+
+		void TotalMark(float totalmark) {
+			float result=(Tamil+English+Maths+Science+Social_science);
+			System.out.println("Total Mark is: "+result+"/"+totalmark);
 		}
 		
 		void  Avrage() {
