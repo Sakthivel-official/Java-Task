@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PrintdetailsusingWhile {
+public class _5_Questions {
 
 	public static void main(String[] args) {
 
