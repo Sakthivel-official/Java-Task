@@ -16,7 +16,7 @@ public class _6_SaturdayTest {
 		for(int i=1;i<=n*2;i+=2) {
 			sum+=i;
 		}
-		System.out.println(sum);
+		System.out.println("The sum of "+n+" Odd numbers is: "+sum);
 		
 		
 		//Q2. Write a program to implement an enum called "Direction" with constants
