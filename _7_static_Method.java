@@ -22,7 +22,7 @@ public class _07_static_Method {
 		
 		StaticAdd();  // access the static method directly
 		
-		_07_static_Method add = new _07_static_Method(); //creating a object for class to access non-static method
+		_7_static_Method add = new _7_static_Method(); //creating a object for class to access non-static method
 		
 		add.Add(); //access the public method using object
 		
