@@ -1,7 +1,5 @@
 
 //1. write a program to print employee details using constructor(empid,empname,empsal,empage,empdistioga);
-//2. create a class dog with instance variable name,color. implement a parameterized that takes name,color as parameter and initialize the instance variable
-//   print the values the variable
 public class Employee {
 	int empid;
 	String empname;
