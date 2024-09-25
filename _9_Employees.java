@@ -15,8 +15,8 @@ public class Employees {
 	}
 	
 	public double calculateAnnualSalary() {
-        return salary * 12;  // Assuming monthly salary
-    }
+       	      return salary * 12;  // Assuming monthly salary
+    	}
 	
 	public void updateSalary(double salary) {
 		this.salary += salary;
