@@ -61,7 +61,7 @@ class Programmer extends Employe{
 		System.out.println("-----------Details About the Programmer----------");
 		System.out.println("    ID    : "+id);
 		System.out.println("    Name  : "+name);
-		System.out.println("    Salary: "+salary);
+		System.out.println("    Salary: "+calculateSalary());
 		System.out.println("    Age   : "+age);
 		System.out.println("--------------------------------------------------");
 	}
