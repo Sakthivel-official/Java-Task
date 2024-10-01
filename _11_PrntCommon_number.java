@@ -1,5 +1,5 @@
 
-//1.Write a Java program to reverse an array of integer values.
+
 //2.Write a Java program to find common elements between two integer arrays.
 
 public class PrntCommon_number {
