@@ -12,7 +12,7 @@ public class Reverse_array {
 		System.out.println("Normal Array: "+Arrays.toString(arr));
 		
 		while(start<end) {
-			//swape
+			//swap
 			int temp = arr[start];
 			arr[start] = arr[end];
 			arr[end] = temp;
