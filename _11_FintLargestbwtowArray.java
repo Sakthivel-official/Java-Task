@@ -39,10 +39,15 @@ public class FintLargestbwtowArray {
 
 		int[] arr1 = {43,24,95893859,42,4,633333,5,24,65,425,7454};
 		int[] arr2 = {423,24,24,633333,24,5,4,2,76};
-		
 		int n = findlargest(arr1, arr2);
 		
-		System.out.println("The largest elemment"+n);
+		System.out.println("The largest Elemment: "+n); //95893859
+
+		int[] arr3 = {23,43,65,899,12,54,12};
+		int[] arr4 = {2,6,34,4,87,74,90};
+		int n2 = findlargest(arr3, arr4);
+		
+		System.out.println("The largest Elemment: "+n); //899
 		
 	}
 
