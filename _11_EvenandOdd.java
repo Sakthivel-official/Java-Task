@@ -10,7 +10,7 @@ public class EvenandOdd {
 		String odd = "";     //to add all the odd num in this string
 		String even = "";	//to add all even num in this string
 		int evenCount = 0;   // for count the even number
-		int oddCount = 0;    // count the odd number
+		// int oddCount = 0;    // count the odd number
 		
 		for(int i=0;i<arr.length;i++) {
 			if(arr[i]%2==0) {    // even number -> (num)%2 == 0
@@ -19,13 +19,12 @@ public class EvenandOdd {
 			}
 			else {
 				odd += arr[i] + "  ";
-				oddCount++;
 			}
 		}
 		
 		System.out.println("---------------ODD AND EVEN--------------");
 		System.out.println("In this Array "+Arrays.toString(arr));
-		System.out.println(oddCount+" ODD Numbers: "+odd);
+		System.out.println(arr.length-evenCount+" ODD Numbers: "+odd);
 		System.out.println(evenCount+" EVEN Numbers: "+even);
 		System.out.println("-----------------------------------------");
 		
@@ -39,6 +38,8 @@ public class EvenandOdd {
 		int[] arr2 = {32,3,4,24,4,51,4,141,43};
 		findEvenOdd(arr2);
 		
+		int[] arr3 = {32,3,4,24,4,51,4,141,43};
+		findEvenOdd(arr3);
 	}
 
 }
