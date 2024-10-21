@@ -18,25 +18,26 @@ public class QueueQuestions {
 		Queue<Integer> q2 = new LinkedList<>();
 		Collections.addAll(q2, 1,2,3,4,5);
 
+		//Q1
 		compareTwoQueues(q1,q2);
+
+		//Q3
 		merge(q1,q2);
 		
 		Queue<Integer> queue = new LinkedList<>();
 		Collections.addAll(queue,1,1,2,2,3,3,5,5,8,9,8,0,9,9,0);
 		
-		
+		//Q2
 		maxElement(queue);
+		//Q5
 		removeduplicates(queue);
 		
 		
 		Deque<Integer> deque = new LinkedList<>();
 		Collections.addAll(deque, 2,67,9,23,90,12);
-		
+		//Q4
 		reverseFirstHalf(deque);
 		
-		
-		
-
 	}
 	
 	
